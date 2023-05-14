@@ -1,0 +1,74 @@
+@media screen (max-width: 960px) {
+    .container {
+        max-width: 898px
+    }
+
+    .logo {
+        max-width: 181px;
+    }
+
+    .location {
+        display: none
+    }
+
+    .hero {
+        padding-top: 22%;
+    }
+
+    .information {
+        padding-left: 8%;
+    }
+
+    .title {
+        font-size: 42px
+    }
+}
+
+@media (max-widgh:768px) {
+    .container {
+        max-width: 722px;
+    }
+
+
+    .logo {
+        max-width: 142px;
+    }
+
+    .hero__btns {
+        display: flex;
+        row-gap: 20px;
+    }
+
+    .hero__advantage {}
+
+}
+
+@media (max-width:480px) {
+    .container {
+        max-width: 90.6%;
+    }
+
+    .advanteges {
+        flex-direction: column;
+    }
+
+    .hero__advantage {
+        flex: 0 1 auto;
+        display: flex;
+        padding: 17px;
+        align-items: center;
+        row-gap: 10px;
+        background: #ffffff;
+        color: #000000;
+        text-align: left;
+    }
+
+    .advantage__img {
+        margin-right: 28px;
+        flex-shrink: 0;
+    }
+
+    .advantage__img path {
+        fill: #000000;
+    }
+}
